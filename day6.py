@@ -9,7 +9,7 @@ listItems = listItems1
 array_len = len(listItems)
 print(listItems)
 
-
+# -- PART TWO --
 
 abc = []
 num = 0
@@ -19,7 +19,7 @@ for x in listItems:
     forbidden = []
     num = 0
     for x1 in x:
-        print(x.intersection(x))
+        #print(x.intersection(x))
         test = listItems[num]
         letter = x[pos:pos + 1]
         if letter == " ":
